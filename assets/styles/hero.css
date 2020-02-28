@@ -1,0 +1,19 @@
+.hero{
+	background-image: url(../img/image.png) ;
+}
+
+.header{
+	width: 100vw;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__link{
+	margin-right: 15px;
+}
+
+.header__link.-up{
+	text-transform: uppercase;
+}
+
