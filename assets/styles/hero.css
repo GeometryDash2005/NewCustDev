@@ -1,19 +1,103 @@
-.hero{
+body {
 	background-image: url(../img/image.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;  
 }
 
 .header{
-	width: 100vw;
 	height: 70px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
-.header__link{
+.header__link{ 
 	margin-right: 15px;
+	color: white;
 }
 
 .header__link.-up{
 	text-transform: uppercase;
 }
 
+.header__link.-up.-grey{
+	color: grey;
+}
+
+.header__actions{
+	display: flex;
+	align-items: center;
+}
+
+.button{
+	margin-left: 15px;
+	width: 160px;
+	height: 42px;
+	border: 0 solid;
+	border-radius: 50px;
+	color: #1cbfff;
+	font-size: 15px;
+}
+
+.hero__content{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hero__info{
+	width: 50%;
+	margin-top: 30px;
+	color: white;
+}
+
+.hero__date{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.hero__tagline{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.hero__detail{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.button.-success{
+	margin-left: 0 ;
+	width: 192px;
+	height: 50px;
+	border: 1px #34bf69 solid;
+	border-radius: 50px;
+	background-color: #34bf69;
+	font-size: 20px;
+	color: white;
+}
+
+.circle:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 231px;
+	height: 231px;
+	left: 284px;
+	top: 660px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	border-radius: 50%;
+	color: #1cbfff;
+}
+
+.circle__assessment{
+	font-size: 30px;
+}
+
+.circle__author{
+	font-size: 20px;
+}
+
+.circle__about{
+	color: #1cbfff;
+}
