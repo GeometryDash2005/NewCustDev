@@ -4,31 +4,6 @@ body {
 	background-size: cover;  
 }
 
-.header{
-	height: 70px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.header__link{ 
-	margin-right: 15px;
-	color: white;
-}
-
-.header__link.-up{
-	text-transform: uppercase;
-}
-
-.header__link.-up.-grey{
-	color: grey;
-}
-
-.header__actions{
-	display: flex;
-	align-items: center;
-}
-
 .button{
 	margin-left: 15px;
 	width: 160px;
@@ -76,20 +51,6 @@ body {
 	color: white;
 }
 
-.circle:before{
-	content: "";
-	display: block;
-	position: absolute;
-	width: 231px;
-	height: 231px;
-	left: 284px;
-	top: 660px;
-	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
-	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
-	border-radius: 50%;
-	color: #1cbfff;
-}
-
 .circle__assessment{
 	font-size: 30px;
 }
@@ -100,4 +61,41 @@ body {
 
 .circle__about{
 	color: #1cbfff;
+}
+
+
+@media screen and (max-width:1200px){
+	.button{
+		font-size: 10px;
+	}
+
+	.button.-success{
+		width: 140px;
+		height: 38px;
+		font-size: 12px;
+	}
+
+	.hero__date{
+		font-size: 18px;
+	}
+
+	.hero__tagline{
+		font-size: 25px;
+	}
+
+	.hero__detail{
+		font-size: 18px;
+	}
+
+	.circle__assessment{
+		font-size: 18px;
+	}
+
+	.circle__author{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:767px){
+
 }

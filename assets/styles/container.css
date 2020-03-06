@@ -2,3 +2,27 @@
 	width: 1000px;
 	margin: 0 auto;
 }
+
+@media screen and (max-width:1200px){
+	.container{
+		width: 800px;
+	}
+}
+
+@media screen and (max-width:1000px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media screen and (max-width:900px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media screen and (max-width:767px){
+	.container{
+		width: 567px;
+	}
+}
