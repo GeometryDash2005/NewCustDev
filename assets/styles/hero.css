@@ -1,0 +1,101 @@
+body {
+	background-image: url(../img/image.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;  
+}
+
+.button{
+	margin-left: 15px;
+	width: 160px;
+	height: 42px;
+	border: 0 solid;
+	border-radius: 50px;
+	color: #1cbfff;
+	font-size: 15px;
+}
+
+.hero__content{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hero__info{
+	width: 50%;
+	margin-top: 30px;
+	color: white;
+}
+
+.hero__date{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.hero__tagline{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.hero__detail{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.button.-success{
+	margin-left: 0 ;
+	width: 192px;
+	height: 50px;
+	border: 1px #34bf69 solid;
+	border-radius: 50px;
+	background-color: #34bf69;
+	font-size: 20px;
+	color: white;
+}
+
+.circle__assessment{
+	font-size: 30px;
+}
+
+.circle__author{
+	font-size: 20px;
+}
+
+.circle__about{
+	color: #1cbfff;
+}
+
+
+@media screen and (max-width:1200px){
+	.button{
+		font-size: 10px;
+	}
+
+	.button.-success{
+		width: 140px;
+		height: 38px;
+		font-size: 12px;
+	}
+
+	.hero__date{
+		font-size: 18px;
+	}
+
+	.hero__tagline{
+		font-size: 25px;
+	}
+
+	.hero__detail{
+		font-size: 18px;
+	}
+
+	.circle__assessment{
+		font-size: 18px;
+	}
+
+	.circle__author{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:767px){
+
+}
