@@ -3,6 +3,11 @@
 	margin: 0 auto;
 }
 
+.container.-reasons{
+	display: flex;
+	justify-content: space-between;
+}
+
 @media screen and (max-width:1200px){
 	.container{
 		width: 800px;

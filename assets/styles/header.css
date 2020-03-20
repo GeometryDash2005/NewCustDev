@@ -31,7 +31,6 @@
 	.header__link{
 		font-size: 13px;
 	}
-<<<<<<< HEAD
 
 	.header__actions{
 		display: none;
@@ -39,22 +38,17 @@
 
 	.button.-success{
 		justify-content: center;
-=======
 }
 
 @media screen and (max-width:767px){
 	.header__actions{
 		
->>>>>>> 452036c6226c0741e8c5b5ec9dac8c6b486137dc
 	}
 
 	.burger__button{
 		display: flex;
 		flex-direction: column;
-<<<<<<< HEAD
 		justify-content: flex-end;
-=======
->>>>>>> 452036c6226c0741e8c5b5ec9dac8c6b486137dc
 	}
 
 	.burger__item{
@@ -63,30 +57,22 @@
 		margin-bottom: 5px;
 	}
 
-<<<<<<< HEAD
 	.header__link{
 		display: none;
 	}
 
 	.header__link.-grey{
-=======
+
+	}
+
 	.burger__menu {
 		display: none;
 	}
-
-	.burger:hover .burger__menu {
->>>>>>> 452036c6226c0741e8c5b5ec9dac8c6b486137dc
-		display: block;
-	}
 }
 
-<<<<<<< HEAD
 @media screen and (max-width:767px){
 	.header__link.-grey{
 		display: none;
 	}
 }
 
-
-=======
->>>>>>> 452036c6226c0741e8c5b5ec9dac8c6b486137dc
