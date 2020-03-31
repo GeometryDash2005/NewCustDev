@@ -8,26 +8,44 @@
 	justify-content: space-between;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1920px){
 	.container{
-		width: 800px;
+		width: 1600px;
+	}
+}
+
+@media screen and (max-width:1640px){
+	.container{
+		width: 1440px;
+	}
+}
+
+@media screen and (max-width:1480px){
+	.container{
+		width: 1200px;
+	}
+}
+
+@media screen and (max-width:1240px){
+	.container{
+		width: 1090px;
 	}
 }
 
 @media screen and (max-width:1000px){
 	.container{
-		width: 700px;
+		width: 850px;
 	}
 }
 
 @media screen and (max-width:900px){
 	.container{
-		width: 600px;
+		width: 750px;
 	}
 }
 
 @media screen and (max-width:767px){
 	.container{
-		width: 567px;
+		width: 617px;
 	}
 }

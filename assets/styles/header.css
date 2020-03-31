@@ -3,6 +3,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 15px;
 }
 
 .header__link{ 
@@ -12,10 +13,11 @@
 
 .header__link.-up{
 	text-transform: uppercase;
+	color: grey;
 }
 
-.header__link.-up.-grey{
-	color: grey;
+.header__link.-up{
+
 }
 
 .header__actions{
