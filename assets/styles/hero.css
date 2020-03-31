@@ -4,6 +4,10 @@ body {
 	background-size: cover;  
 }
 
+.hero{
+	height: 100vh;
+}
+
 .button{
 	margin-left: 15px;
 	width: 160px;
