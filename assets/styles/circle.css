@@ -1,6 +1,6 @@
 .circle {
 	text-align: center;
-	position: absolute;
+	position: relative;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -8,13 +8,21 @@
 	width: 231px;
 	height: 231px;
 	left: 284px;
-	top: 660px;
+	top: 60px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 	border-radius: 50%;
 	color: #1cbfff;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:1024px){
+	.circle {
 
+	}
+}
+
+@media screen and (max-width:767px){
+	.circle {
+
+	}
 }
