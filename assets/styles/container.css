@@ -8,6 +8,12 @@
 	justify-content: space-between;
 }
 
+.container.-condition{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
 @media screen and (max-width:1920px){
 	.container{
 		width: 1600px;

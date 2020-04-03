@@ -83,3 +83,14 @@ body {
 	font-size: 28px;
 	}
 }
+
+@media screen and (max-width:767px){
+	.hero__info{
+	font-size: 15px;
+	}
+
+	.hero__content{
+	display: flex;
+	justify-content: flex-start;
+}
+}
