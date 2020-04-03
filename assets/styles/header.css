@@ -16,10 +16,6 @@
 	color: grey;
 }
 
-.header__link.-up{
-
-}
-
 .header__actions{
 	display: flex;
 	align-items: center;
@@ -42,11 +38,7 @@
 		justify-content: center;
 }
 
-@media screen and (max-width:767px){
-	.header__actions{
-		
-	}
-
+@media screen and (max-width:1024px){
 	.burger__button{
 		display: flex;
 		flex-direction: column;
@@ -63,7 +55,7 @@
 		display: none;
 	}
 
-	.header__link.-grey{
+	.header__link.-main{
 
 	}
 
@@ -73,7 +65,7 @@
 }
 
 @media screen and (max-width:767px){
-	.header__link.-grey{
+	.header__link.-main{
 		display: none;
 	}
 }
