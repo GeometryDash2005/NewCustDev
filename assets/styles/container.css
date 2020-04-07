@@ -3,11 +3,6 @@
 	margin: 0 auto;
 }
 
-.container.-reasons{
-	display: flex;
-	justify-content: space-between;
-}
-
 .container.-condition{
 	display: flex;
 	flex-direction: column;

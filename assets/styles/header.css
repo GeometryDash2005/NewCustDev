@@ -13,7 +13,7 @@
 
 .header__link.-up{
 	text-transform: uppercase;
-	color: grey;
+	color:  var(--color-blue);
 }
 
 .header__actions{

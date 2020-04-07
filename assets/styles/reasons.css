@@ -10,10 +10,37 @@
 
 .info{
 	display: flex;
-}
-
-.info__body:nth-child(2){
 	flex-wrap: wrap;
+	width: 60%;
 }
 
+.tagline{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
 
+.tagline__text{
+	max-width: 50%;
+}
+
+.reasons__content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.info__body{
+	padding: 20px;
+	background: #EDF8FF;
+	max-width: 40%;
+	margin-bottom: 20px;
+}
+
+.info__body:first-child{
+	margin-right: 20px;
+}
+
+.info__body:nth-child(3){
+	margin-right: 20px;
+}
