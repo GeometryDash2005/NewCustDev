@@ -1,17 +1,20 @@
 
 .condition{
 	background: rgba(47, 128, 237, 0.05);
-	border-radius: 100px;
+	background-size: 50%;
+	border-radius: 100px 0 0 200px
 }
 
 .professions{
 	display: flex;
-	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-top: 70px;
+	margin-bottom: 120px;
+	justify-content: center;
 }
 
 .condition__title{
-	margin-top: 100px;
+	margin-top: 120px;
+	margin-left: 10%;
 }
 
 .professions__body{
@@ -19,8 +22,8 @@
 }
 
 .professions__body:nth-child(2){
-	margin-right: 20%;
-	margin-left: 20%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .professions__title{

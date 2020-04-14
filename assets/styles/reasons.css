@@ -44,3 +44,10 @@
 .info__body:nth-child(3){
 	margin-right: 20px;
 }
+
+@media screen and (max-width: 1120px){
+	@media screen and (max-width: 1120px){
+	.reasons__content{
+		flex-direction: column;
+}
+}
