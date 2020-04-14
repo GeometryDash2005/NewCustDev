@@ -1,0 +1,32 @@
+.training__content{
+	display: flex;
+}
+
+.start{
+	width: 60%;
+}
+
+.result{
+	width: 40%;
+}
+
+.course{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.course__content{
+	width: 25%;
+}
+
+.course__content:first-child{
+	margin-right: 20px;
+}
+
+.course__content:nth-child(3){
+	margin-right: 20px;
+}
+
+.training__title{
+	
+}
