@@ -1,0 +1,13 @@
+.result{
+	background-size: 90%;
+	background-image: url(../img/Rectangle(1).png);
+	background-repeat: no-repeat;
+	background-position-x: left;
+}
+
+.result:before{
+	background-size: 90%;
+	background-image: url(../img/Rectangle(2).png);
+	background-repeat: no-repeat;
+	background-position-x: left;
+}
