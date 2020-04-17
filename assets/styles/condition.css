@@ -1,8 +1,9 @@
 
 .condition{
-	background: rgba(47, 128, 237, 0.05);
-	background-size: 50%;
-	border-radius: 100px 0 0 200px
+	background-size: 100%;
+	background-image: url(../img/Rectangle.png);
+	background-repeat: no-repeat;
+	background-position: right;
 }
 
 .professions{
