@@ -17,9 +17,7 @@ a {
 }
 
 body {
-	background-image: url(../img/image.png) ;
-	background-repeat: no-repeat;
-	background-size: 100%;  
+  background-color:#FAFAFA;
 }
 
 @media screen and (max-width: 939px) {

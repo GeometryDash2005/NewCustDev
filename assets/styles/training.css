@@ -18,6 +18,11 @@
 	align-items: center;
 }
 
+.end__content{
+	background-color: #ffffff;
+	padding: 50px;
+}
+
 .course{
 	display: flex;
 	justify-content: space-between;

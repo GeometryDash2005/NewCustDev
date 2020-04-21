@@ -1,13 +1,46 @@
 .result{
-	background-size: 90%;
-	background-image: url(../img/Rectangle(1).png);
+	background-size: 100%;
+	background-image: url(../img/group 9.png);
 	background-repeat: no-repeat;
 	background-position-x: left;
 }
 
-.result:before{
-	background-size: 90%;
-	background-image: url(../img/Rectangle(2).png);
-	background-repeat: no-repeat;
-	background-position-x: left;
+.result__text{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	color: #ffffff;
+}
+
+.card__title{
+	color: #2F80ED;
+}
+
+.card__info{
+	color: grey;
+}
+
+.card__text{
+	width: 80%;
+}
+
+.result__content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card{
+	width: 35%;
+	display: flex;
+	background-color: #ffffff;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+.card__image{
+	width: 20%;
+}
+
+.card__picture{
+	max-width: 100%;
 }
