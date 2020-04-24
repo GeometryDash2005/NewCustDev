@@ -1,8 +1,5 @@
 .result{
-	background-size: 100%;
-	background-image: url(../img/group 9.png);
-	background-repeat: no-repeat;
-	background-position-x: left;
+	background-color: grey;
 }
 
 .result__text{
@@ -35,6 +32,7 @@
 	background-color: #ffffff;
 	margin-bottom: 40px;
 	padding: 20px;
+	border-radius: 15px;
 }
 
 .card__image{

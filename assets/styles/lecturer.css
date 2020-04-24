@@ -1,0 +1,32 @@
+.lecturer__tagline{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.picture.-lecturer{
+	border-radius: 15px;
+}
+
+.lecturer__center{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.lecturer__bottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.lecturer__info{
+	justify-content: center;
+	align-items: center;
+}
+
+.lecturer__details{
+	margin-right: 40px;
+	width: 20%;
+}
+
+.lecturer__details:last-child{
+	margin-right: 0;
+}
