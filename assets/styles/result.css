@@ -1,5 +1,6 @@
 .result{
-	background-color: grey;
+	background-color: var(--color-blue-dark);
+	padding-top: 30px;
 }
 
 .result__text{
@@ -10,6 +11,7 @@
 
 .card__title{
 	color: #2F80ED;
+	margin-bottom: 15px;
 }
 
 .card__info{

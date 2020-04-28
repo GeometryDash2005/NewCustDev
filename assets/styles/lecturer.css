@@ -9,7 +9,7 @@
 
 .lecturer__center{
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .lecturer__bottom{
@@ -18,8 +18,11 @@
 }
 
 .lecturer__info{
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 60%;
+	padding: 20px;
 }
 
 .lecturer__details{
@@ -29,4 +32,22 @@
 
 .lecturer__details:last-child{
 	margin-right: 0;
+}
+
+.lecturer__card{
+	width: 35%;
+	background-color: #ffffff;
+	margin-bottom: 40px;
+	padding: 50px;
+	border-radius: 15px;
+}
+
+.lecturer__reasons{
+	color: #2F80ED;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.lecturer__about{
+	color: grey;
 }

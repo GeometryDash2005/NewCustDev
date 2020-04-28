@@ -3,6 +3,7 @@
 	background-image: url(../img/image.png) ;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	padding: 0;
 }
 
 .button{
