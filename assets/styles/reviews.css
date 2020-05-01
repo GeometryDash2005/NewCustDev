@@ -1,10 +1,46 @@
 .reviews{
-	background-image: url(../img/Rectangle 2.png);
+	background-image: url(../img/Rectangle2.png) ;
 	background-repeat: no-repeat;
-	
+	background-size: 100%;
 }
 
 .reviews__title{
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+.reviews__card{
+	background-color: #ffffff;
+	margin-bottom: 40px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.reviews__content{
+	display: flex;
+}
+
+.card__text{
+	color: grey;
+}
+
+.reviews__left{
+	width: 40%;
+	margin-right: 20%;
+}
+
+.reviews__right{
+	width: 40%;
+}
+
+.card__name{
+	margin-bottom: 20px;
+}
+
+.card__text{
+	margin-bottom: 10px;
+}
+
+.card__img{
+	max-width: 100%;
 }

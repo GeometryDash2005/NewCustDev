@@ -1,5 +1,7 @@
 .result{
-	background-color: var(--color-blue-dark);
+	background-image: url(../img/group9.png) ;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	padding-top: 30px;
 }
 
