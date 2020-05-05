@@ -1,0 +1,24 @@
+.entry{
+	background-color: #185FBF;
+}
+
+.entry__content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.entry__city{
+	display: flex;
+}
+
+
+.city__title{
+	color: #ffffff;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.city__title:last-child{
+	margin-right: 0;
+}
