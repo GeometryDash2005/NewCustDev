@@ -1,0 +1,25 @@
+.footer{
+	background-color: #185FBF;
+	height: 40px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.footer__content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__contract{
+	display: flex;
+}
+
+.footer__text{
+	margin-right: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.footer__text:last-child{
+	margin-right: 0;
+}
